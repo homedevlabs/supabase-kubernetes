@@ -103,19 +103,9 @@ secret:
 
   ## Studio dashboard credentials
   ##
-  dashboard:
-    # username: "supabase"
-    # password: "this_password_is_insecure_and_should_be_updated"
-    # openAiApiKey: "key_super_secret"
+  # dashboard: {}
 
-    ## Reference to existing secret
-    # secretRef: ""
-
-    ## Map to actual keys inside secretRef if they differ
-    # secretRefKey:
-    #   username: username
-    #   password: password
-    #   openAiApiKey: openAiApiKey
+  ## S3-compatible credentials
 
   ## S3-compatible credentials
   ##
