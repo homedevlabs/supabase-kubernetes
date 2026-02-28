@@ -50,7 +50,7 @@ secret:
     secret: "your-super-secret-jwt-token-with-at-least-32-characters-long"
 
     ## Reference to existing secret
-    # secretRef: "supabase-vault-credentials"
+    # secretRef: ""
 
     ## Map to actual keys inside secretRef if they differ
     # secretRefKey:
@@ -66,11 +66,11 @@ secret:
     database: "postgres"
 
     ## Reference to existing secret
-    # secretRef: "supabase-vault-credentials"
+    # secretRef: ""
 
     ## Map to actual keys inside secretRef if they differ
     # secretRefKey:
-    #   password: postgres-password
+    #   password: password
     #   database: database
 
   ## Logflare credentials
@@ -156,11 +156,11 @@ secret:
     cryptoKey: "your-encryption-key-32-chars-min"
 
     ## Reference to existing secret
-    # secretRef: "supabase-vault-credentials"
+    # secretRef: ""
 
     ## Map to actual keys inside secretRef if they differ
     # secretRefKey:
-    #   cryptoKey: meta-crypto-key
+    #   cryptoKey: cryptoKey
 
   minio:
     user: supa-storage
