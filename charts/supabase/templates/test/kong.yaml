@@ -1,4 +1,4 @@
-{{- if .Values.deployment.kong.enabled -}}
+{{- if and .Values.deployment.kong.enabled .Values.secret.dashboard -}}
 apiVersion: batch/v1
 kind: Job
 metadata:
