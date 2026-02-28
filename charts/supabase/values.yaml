@@ -50,13 +50,13 @@ secret:
     secret: "your-super-secret-jwt-token-with-at-least-32-characters-long"
 
     ## Reference to existing secret
-    secretRef: "supabase-vault-credentials"
+    # secretRef: "supabase-vault-credentials"
 
     ## Map to actual keys inside secretRef if they differ
-    secretRefKey:
-      anonKey: anonKey
-      serviceKey: serviceKey
-      secret: secret
+    # secretRefKey:
+    #   anonKey: anonKey
+    #   serviceKey: serviceKey
+    #   secret: secret
 
   ## PostgreSQL credentials
   ## Required even when using an external database
@@ -66,12 +66,12 @@ secret:
     database: "postgres"
 
     ## Reference to existing secret
-    secretRef: "supabase-vault-credentials"
+    # secretRef: "supabase-vault-credentials"
 
     ## Map to actual keys inside secretRef if they differ
-    secretRefKey:
-      password: postgres-password
-      database: database
+    # secretRefKey:
+    #   password: postgres-password
+    #   database: database
 
   ## Logflare credentials
   ##
@@ -156,11 +156,11 @@ secret:
     cryptoKey: "your-encryption-key-32-chars-min"
 
     ## Reference to existing secret
-    secretRef: "supabase-vault-credentials"
+    # secretRef: "supabase-vault-credentials"
 
     ## Map to actual keys inside secretRef if they differ
-    secretRefKey:
-      cryptoKey: meta-crypto-key
+    # secretRefKey:
+    #   cryptoKey: meta-crypto-key
 
   minio:
     user: supa-storage
