@@ -103,7 +103,9 @@ secret:
 
   ## Studio dashboard credentials
   ##
-  # dashboard: {}
+  dashboard:
+    secretRef: ""
+    secretRefKey: {}
 
   ## S3-compatible credentials
 
