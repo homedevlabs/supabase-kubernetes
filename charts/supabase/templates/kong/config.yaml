@@ -236,11 +236,6 @@ data:
             strip_path: true
             paths:
               - /
-    {{- if .Values.secret.dashboard }}
         plugins:
           - name: cors
-          - name: basic-auth
-            config:
-              hide_credentials: true
-    {{- end }}
 {{- end }}
