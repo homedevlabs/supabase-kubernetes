@@ -104,8 +104,8 @@ secret:
   ## Studio dashboard credentials
   ##
   dashboard:
-    username: "supabase"
-    password: "this_password_is_insecure_and_should_be_updated"
+    # username: "supabase"
+    # password: "this_password_is_insecure_and_should_be_updated"
     openAiApiKey: "key_super_secret"
 
     ## Reference to existing secret
